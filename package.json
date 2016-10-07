@@ -1,0 +1,17 @@
+{
+  "name": "cconf",
+  "version": "0.0.2",
+  "description": "Cascading Configuration Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "aimicheng@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
