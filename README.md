@@ -48,27 +48,26 @@ And we can use "cconf.get" to access config item in the config pool.
 But what if both config files contains the same configuration item. The answer is, the config value in last loaded file overwrites the one previously loaded. This merge strategy just like that writing style rules in CSS. And that's why we call it "Cascading Configuration Loader".
 
 ## API
-### Basic Features
 1. cconf.file('path/to/config/file')
 
-Load a new config file
+    Load a new config file
 
 2. cconf.get('config_key')
 
-Get a config item in the config pool.
+    Get a config item in the config pool.
 
 3. cconf.set('config_key', config_value)
 
-Set a config item in the config pool.
+    Set a config item in the config pool.
 
 4. cconf.merge(obj)
 
-Merge a group of config items supplied by param obj into the current config pool.
+    Merge a group of config items supplied by param obj into the current config pool.
 
 5. cconf.export()
 
-Export the current config pool.
+    Export the current config pool.
 
 6. cconf.use(namespace)
 
-Switch namespace.
+    Switch namespace.
