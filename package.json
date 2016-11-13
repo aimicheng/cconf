@@ -1,6 +1,6 @@
 {
   "name": "cconf",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cascading Configuration Loader",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "aimicheng@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimicheng/cconf.git"
+  },
   "dependencies": {
   },
   "devDependencies": {
