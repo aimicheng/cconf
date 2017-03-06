@@ -4,7 +4,7 @@ CConf support cascading configuration loading, namespaces. By default, CConf can
 
 ## Getting Started
 
-```
+```shell
 $ npm install --save cconf
 ```
 
